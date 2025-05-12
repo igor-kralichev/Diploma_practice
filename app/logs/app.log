@@ -1,0 +1,2186 @@
+2025-05-07 14:36:05,946 - INFO - Файл F:\projects\Diploma_practice\output\indicators.json уже существует и содержит данные. Пропускаем загрузку данных.
+2025-05-07 14:47:55,653 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 14:47:55,653 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 14:47:57,116 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 14:48:00,614 - INFO - Первые строки данных после предобработки:
+2025-05-07 14:48:00,619 - INFO -   TERRITORY_CODE         TERRITORY_NAME DATE_OF_ARRIVAL              TRIP_TYPE  VISIT_TYPE HOME_COUNTRY            HOME_REGION                        HOME_CITY                              GOAL   GENDER              AGE                 INCOME  DAYS_CNT  VISITORS_CNT     SPENT
+0       22701000  город Нижний Новгород      2021-01-19  Поездка внутри страны      Турист       Россия  Нижегородская область   Сосновский муниципальный район                            Туризм  женский  от 25 до 34 лет  от 30 до 50 тыс. руб.        18             4  0.136508
+1       22701000  город Нижний Новгород      2021-01-02  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 18 до 24 лет        до 30 тыс. руб.         8             6  0.030915
+2       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны  Экскурсант       Россия  Ленинградская область                                                             Туризм  мужской  от 25 до 34 лет    свыше 100 тыс. руб.         1             3  0.018046
+3       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 35 до 44 лет  от 50 до 70 тыс. руб.         7             5  0.094773
+4       22701000  город Нижний Новгород      2021-01-17  Поездка внутри страны      Турист       Россия  Нижегородская область                        город Бор  Посещение друзей и родственников  женский  от 35 до 44 лет        до 30 тыс. руб.         3             4  0.008532
+2025-05-07 14:48:00,619 - INFO - Типы данных после предобработки:
+2025-05-07 14:48:00,620 - INFO - TERRITORY_CODE             object
+TERRITORY_NAME             object
+DATE_OF_ARRIVAL    datetime64[ns]
+TRIP_TYPE                  object
+VISIT_TYPE                 object
+HOME_COUNTRY               object
+HOME_REGION                object
+HOME_CITY                  object
+GOAL                       object
+GENDER                     object
+AGE                        object
+INCOME                     object
+DAYS_CNT                    int64
+VISITORS_CNT                int64
+SPENT                     float64
+2025-05-07 14:48:00,835 - ERROR - Ошибка при загрузке в staging: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:48:00,835 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:48:14,090 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 14:48:14,091 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 14:48:15,381 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 14:48:18,763 - INFO - Первые строки данных после предобработки:
+2025-05-07 14:48:18,768 - INFO -   TERRITORY_CODE         TERRITORY_NAME DATE_OF_ARRIVAL              TRIP_TYPE  VISIT_TYPE HOME_COUNTRY            HOME_REGION                        HOME_CITY                              GOAL   GENDER              AGE                 INCOME  DAYS_CNT  VISITORS_CNT     SPENT
+0       22701000  город Нижний Новгород      2021-01-19  Поездка внутри страны      Турист       Россия  Нижегородская область   Сосновский муниципальный район                            Туризм  женский  от 25 до 34 лет  от 30 до 50 тыс. руб.        18             4  0.136508
+1       22701000  город Нижний Новгород      2021-01-02  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 18 до 24 лет        до 30 тыс. руб.         8             6  0.030915
+2       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны  Экскурсант       Россия  Ленинградская область                                                             Туризм  мужской  от 25 до 34 лет    свыше 100 тыс. руб.         1             3  0.018046
+3       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 35 до 44 лет  от 50 до 70 тыс. руб.         7             5  0.094773
+4       22701000  город Нижний Новгород      2021-01-17  Поездка внутри страны      Турист       Россия  Нижегородская область                        город Бор  Посещение друзей и родственников  женский  от 35 до 44 лет        до 30 тыс. руб.         3             4  0.008532
+2025-05-07 14:48:18,768 - INFO - Типы данных после предобработки:
+2025-05-07 14:48:18,769 - INFO - TERRITORY_CODE             object
+TERRITORY_NAME             object
+DATE_OF_ARRIVAL    datetime64[ns]
+TRIP_TYPE                  object
+VISIT_TYPE                 object
+HOME_COUNTRY               object
+HOME_REGION                object
+HOME_CITY                  object
+GOAL                       object
+GENDER                     object
+AGE                        object
+INCOME                     object
+DAYS_CNT                    int64
+VISITORS_CNT                int64
+SPENT                     float64
+2025-05-07 14:48:18,906 - ERROR - Ошибка при загрузке в staging: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:48:18,907 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:53:09,287 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 14:53:09,287 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 14:53:10,709 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 14:53:13,765 - INFO - Первые строки данных после предобработки:
+2025-05-07 14:53:13,770 - INFO -   TERRITORY_CODE         TERRITORY_NAME DATE_OF_ARRIVAL              TRIP_TYPE  VISIT_TYPE HOME_COUNTRY            HOME_REGION                        HOME_CITY                              GOAL   GENDER              AGE                 INCOME  DAYS_CNT  VISITORS_CNT     SPENT
+0       22701000  город Нижний Новгород      2021-01-19  Поездка внутри страны      Турист       Россия  Нижегородская область   Сосновский муниципальный район                            Туризм  женский  от 25 до 34 лет  от 30 до 50 тыс. руб.        18             4  0.136508
+1       22701000  город Нижний Новгород      2021-01-02  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 18 до 24 лет        до 30 тыс. руб.         8             6  0.030915
+2       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны  Экскурсант       Россия  Ленинградская область                                                             Туризм  мужской  от 25 до 34 лет    свыше 100 тыс. руб.         1             3  0.018046
+3       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 35 до 44 лет  от 50 до 70 тыс. руб.         7             5  0.094773
+4       22701000  город Нижний Новгород      2021-01-17  Поездка внутри страны      Турист       Россия  Нижегородская область                        город Бор  Посещение друзей и родственников  женский  от 35 до 44 лет        до 30 тыс. руб.         3             4  0.008532
+2025-05-07 14:53:13,771 - INFO - Типы данных после предобработки:
+2025-05-07 14:53:13,771 - INFO - TERRITORY_CODE             object
+TERRITORY_NAME             object
+DATE_OF_ARRIVAL    datetime64[ns]
+TRIP_TYPE                  object
+VISIT_TYPE                 object
+HOME_COUNTRY               object
+HOME_REGION                object
+HOME_CITY                  object
+GOAL                       object
+GENDER                     object
+AGE                        object
+INCOME                     object
+DAYS_CNT                    int64
+VISITORS_CNT                int64
+SPENT                     float64
+2025-05-07 14:53:13,949 - ERROR - Ошибка при загрузке в staging: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:53:13,949 - ERROR - Ошибка транзакционного swap: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:53:13,950 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 14:53:14,822 - ERROR - Ошибка при расчёте/сохранении JSON: Object of type int64 is not JSON serializable
+2025-05-07 14:55:50,891 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 14:55:50,891 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 14:55:52,569 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 14:55:55,607 - INFO - Первые строки данных после предобработки:
+2025-05-07 14:55:55,611 - INFO -   TERRITORY_CODE         TERRITORY_NAME DATE_OF_ARRIVAL              TRIP_TYPE  VISIT_TYPE HOME_COUNTRY            HOME_REGION                        HOME_CITY                              GOAL   GENDER              AGE                 INCOME  DAYS_CNT  VISITORS_CNT     SPENT
+0       22701000  город Нижний Новгород      2021-01-19  Поездка внутри страны      Турист       Россия  Нижегородская область   Сосновский муниципальный район                            Туризм  женский  от 25 до 34 лет  от 30 до 50 тыс. руб.        18             4  0.136508
+1       22701000  город Нижний Новгород      2021-01-02  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 18 до 24 лет        до 30 тыс. руб.         8             6  0.030915
+2       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны  Экскурсант       Россия  Ленинградская область                                                             Туризм  мужской  от 25 до 34 лет    свыше 100 тыс. руб.         1             3  0.018046
+3       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 35 до 44 лет  от 50 до 70 тыс. руб.         7             5  0.094773
+4       22701000  город Нижний Новгород      2021-01-17  Поездка внутри страны      Турист       Россия  Нижегородская область                        город Бор  Посещение друзей и родственников  женский  от 35 до 44 лет        до 30 тыс. руб.         3             4  0.008532
+2025-05-07 14:55:55,611 - INFO - Типы данных после предобработки:
+2025-05-07 14:55:55,612 - INFO - TERRITORY_CODE             object
+TERRITORY_NAME             object
+DATE_OF_ARRIVAL    datetime64[ns]
+TRIP_TYPE                  object
+VISIT_TYPE                 object
+HOME_COUNTRY               object
+HOME_REGION                object
+HOME_CITY                  object
+GOAL                       object
+GENDER                     object
+AGE                        object
+INCOME                     object
+DAYS_CNT                    int64
+VISITORS_CNT                int64
+SPENT                     float64
+2025-05-07 14:55:55,756 - ERROR - Ошибка при загрузке в staging: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:55:55,757 - ERROR - Ошибка транзакционного swap: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:55:55,757 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 14:55:56,124 - ERROR - Ошибка при расчёте/сохранении JSON: 'float' object has no attribute 'round'
+2025-05-07 14:57:35,833 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 14:57:35,834 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 14:57:37,100 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 14:57:40,129 - INFO - Первые строки данных после предобработки:
+2025-05-07 14:57:40,133 - INFO -   TERRITORY_CODE         TERRITORY_NAME DATE_OF_ARRIVAL              TRIP_TYPE  VISIT_TYPE HOME_COUNTRY            HOME_REGION                        HOME_CITY                              GOAL   GENDER              AGE                 INCOME  DAYS_CNT  VISITORS_CNT     SPENT
+0       22701000  город Нижний Новгород      2021-01-19  Поездка внутри страны      Турист       Россия  Нижегородская область   Сосновский муниципальный район                            Туризм  женский  от 25 до 34 лет  от 30 до 50 тыс. руб.        18             4  0.136508
+1       22701000  город Нижний Новгород      2021-01-02  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 18 до 24 лет        до 30 тыс. руб.         8             6  0.030915
+2       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны  Экскурсант       Россия  Ленинградская область                                                             Туризм  мужской  от 25 до 34 лет    свыше 100 тыс. руб.         1             3  0.018046
+3       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 35 до 44 лет  от 50 до 70 тыс. руб.         7             5  0.094773
+4       22701000  город Нижний Новгород      2021-01-17  Поездка внутри страны      Турист       Россия  Нижегородская область                        город Бор  Посещение друзей и родственников  женский  от 35 до 44 лет        до 30 тыс. руб.         3             4  0.008532
+2025-05-07 14:57:40,133 - INFO - Типы данных после предобработки:
+2025-05-07 14:57:40,134 - INFO - TERRITORY_CODE             object
+TERRITORY_NAME             object
+DATE_OF_ARRIVAL    datetime64[ns]
+TRIP_TYPE                  object
+VISIT_TYPE                 object
+HOME_COUNTRY               object
+HOME_REGION                object
+HOME_CITY                  object
+GOAL                       object
+GENDER                     object
+AGE                        object
+INCOME                     object
+DAYS_CNT                    int64
+VISITORS_CNT                int64
+SPENT                     float64
+2025-05-07 14:57:40,268 - ERROR - Ошибка при загрузке в staging: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:57:40,269 - ERROR - Ошибка транзакционного swap: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 14:57:40,269 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 14:57:41,123 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 15:12:56,250 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 15:12:56,250 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 15:13:13,472 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 15:13:13,472 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 15:13:15,084 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 15:13:18,684 - INFO - Первые строки данных после предобработки:
+2025-05-07 15:13:18,688 - INFO -   TERRITORY_CODE         TERRITORY_NAME DATE_OF_ARRIVAL              TRIP_TYPE  VISIT_TYPE HOME_COUNTRY            HOME_REGION                        HOME_CITY                              GOAL   GENDER              AGE                 INCOME  DAYS_CNT  VISITORS_CNT     SPENT
+0       22701000  город Нижний Новгород      2021-01-19  Поездка внутри страны      Турист       Россия  Нижегородская область   Сосновский муниципальный район                            Туризм  женский  от 25 до 34 лет  от 30 до 50 тыс. руб.        18             4  0.136508
+1       22701000  город Нижний Новгород      2021-01-02  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 18 до 24 лет        до 30 тыс. руб.         8             6  0.030915
+2       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны  Экскурсант       Россия  Ленинградская область                                                             Туризм  мужской  от 25 до 34 лет    свыше 100 тыс. руб.         1             3  0.018046
+3       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 35 до 44 лет  от 50 до 70 тыс. руб.         7             5  0.094773
+4       22701000  город Нижний Новгород      2021-01-17  Поездка внутри страны      Турист       Россия  Нижегородская область                        город Бор  Посещение друзей и родственников  женский  от 35 до 44 лет        до 30 тыс. руб.         3             4  0.008532
+2025-05-07 15:13:18,689 - INFO - Типы данных после предобработки:
+2025-05-07 15:13:18,689 - INFO - TERRITORY_CODE             object
+TERRITORY_NAME             object
+DATE_OF_ARRIVAL    datetime64[ns]
+TRIP_TYPE                  object
+VISIT_TYPE                 object
+HOME_COUNTRY               object
+HOME_REGION                object
+HOME_CITY                  object
+GOAL                       object
+GENDER                     object
+AGE                        object
+INCOME                     object
+DAYS_CNT                    int64
+VISITORS_CNT                int64
+SPENT                     float64
+2025-05-07 15:13:18,853 - ERROR - Ошибка при загрузке в staging: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 15:13:18,854 - ERROR - Ошибка транзакционного swap: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 15:13:18,854 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 15:13:19,703 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 15:19:11,402 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 15:19:11,403 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 15:19:12,928 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 15:19:15,998 - INFO - Первые строки данных после предобработки:
+2025-05-07 15:19:16,002 - INFO -   TERRITORY_CODE         TERRITORY_NAME DATE_OF_ARRIVAL              TRIP_TYPE  VISIT_TYPE HOME_COUNTRY            HOME_REGION                        HOME_CITY                              GOAL   GENDER              AGE                 INCOME  DAYS_CNT  VISITORS_CNT     SPENT
+0       22701000  город Нижний Новгород      2021-01-19  Поездка внутри страны      Турист       Россия  Нижегородская область   Сосновский муниципальный район                            Туризм  женский  от 25 до 34 лет  от 30 до 50 тыс. руб.        18             4  0.136508
+1       22701000  город Нижний Новгород      2021-01-02  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 18 до 24 лет        до 30 тыс. руб.         8             6  0.030915
+2       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны  Экскурсант       Россия  Ленинградская область                                                             Туризм  мужской  от 25 до 34 лет    свыше 100 тыс. руб.         1             3  0.018046
+3       22701000  город Нижний Новгород      2021-01-08  Поездка внутри страны      Турист       Россия  Нижегородская область  Богородский муниципальный район                      Командировка  мужской  от 35 до 44 лет  от 50 до 70 тыс. руб.         7             5  0.094773
+4       22701000  город Нижний Новгород      2021-01-17  Поездка внутри страны      Турист       Россия  Нижегородская область                        город Бор  Посещение друзей и родственников  женский  от 35 до 44 лет        до 30 тыс. руб.         3             4  0.008532
+2025-05-07 15:19:16,002 - INFO - Типы данных после предобработки:
+2025-05-07 15:19:16,003 - INFO - TERRITORY_CODE             object
+TERRITORY_NAME             object
+DATE_OF_ARRIVAL    datetime64[ns]
+TRIP_TYPE                  object
+VISIT_TYPE                 object
+HOME_COUNTRY               object
+HOME_REGION                object
+HOME_CITY                  object
+GOAL                       object
+GENDER                     object
+AGE                        object
+INCOME                     object
+DAYS_CNT                    int64
+VISITORS_CNT                int64
+SPENT                     float64
+2025-05-07 15:19:16,175 - ERROR - Ошибка при загрузке в staging: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 15:19:16,175 - ERROR - Ошибка транзакционного swap: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 15:19:16,176 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 15:19:17,032 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 15:48:01,419 - ERROR - Ошибка подключения к базе данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 15:48:01,419 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 15:48:54,339 - ERROR - Ошибка подключения к базе данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 15:48:54,339 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 15:58:44,333 - ERROR - Ошибка подключения к базе данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 15:58:44,334 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 16:02:22,694 - INFO - Успешное подключение к базе данных.
+2025-05-07 16:02:22,766 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 16:02:22,766 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 17:39:06,216 - ERROR - Ошибка подключения к базе данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 17:39:06,216 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 17:43:42,011 - INFO - Успешное подключение к базе данных.
+2025-05-07 17:43:42,106 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 17:43:42,107 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 17:43:43,772 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 17:43:43,772 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 17:43:45,873 - INFO - Количество записей до предобработки: 482238
+2025-05-07 17:43:46,266 - INFO - Количество записей после удаления выбросов: 122538
+2025-05-07 17:44:00,128 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 17:44:00,200 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 17:44:00,201 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 17:44:00,323 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 18:17:05,854 - ERROR - Ошибка подключения к базе данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 18:17:05,855 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-07 18:17:17,961 - INFO - Успешное подключение к базе данных.
+2025-05-07 18:17:18,031 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 18:17:18,031 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 18:17:19,647 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:17:19,647 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:17:21,888 - INFO - Количество записей до предобработки: 482238
+2025-05-07 18:17:22,276 - INFO - Количество записей после удаления выбросов: 122538
+2025-05-07 18:17:36,617 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 18:17:36,775 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 18:17:36,775 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 18:17:36,910 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 18:42:57,547 - INFO - Успешное подключение к базе данных.
+2025-05-07 18:42:57,618 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 18:42:57,619 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 18:43:12,897 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:43:12,897 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:43:15,667 - INFO - Количество записей до предобработки: 482238
+2025-05-07 18:43:15,987 - INFO - Количество записей после предобработки: 194678
+2025-05-07 18:43:38,117 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 18:43:38,209 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 18:43:38,209 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 18:43:38,421 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 18:46:58,919 - INFO - Успешное подключение к базе данных.
+2025-05-07 18:46:59,000 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 18:46:59,000 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 18:47:00,554 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:47:00,554 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:47:02,751 - INFO - Количество записей до предобработки: 482238
+2025-05-07 18:47:03,370 - INFO - Количество записей после предобработки: 482238
+2025-05-07 18:47:59,478 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 18:47:59,601 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 18:47:59,601 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 18:47:59,821 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 18:49:30,332 - INFO - Успешное подключение к базе данных.
+2025-05-07 18:49:30,403 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 18:49:30,403 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 18:49:32,022 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:49:32,023 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:49:34,219 - INFO - Количество записей до предобработки: 482238
+2025-05-07 18:49:34,858 - INFO - Количество записей после предобработки: 482238
+2025-05-07 18:49:35,099 - INFO - Количество записей после удаления выбросов: 398947
+2025-05-07 18:50:20,948 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 18:50:21,069 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 18:50:21,069 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 18:50:21,254 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 18:52:39,325 - INFO - Успешное подключение к базе данных.
+2025-05-07 18:52:39,394 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 18:52:39,395 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 18:52:40,788 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:52:40,788 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:52:42,982 - INFO - Количество записей до предобработки: 482238
+2025-05-07 18:52:43,607 - INFO - Количество записей после предобработки: 482238
+2025-05-07 18:52:43,819 - INFO - Количество записей после удаления выбросов: 381279
+2025-05-07 18:53:29,523 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 18:53:29,634 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 18:53:29,634 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 18:53:29,816 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 18:54:56,993 - INFO - Успешное подключение к базе данных.
+2025-05-07 18:54:57,064 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 18:54:57,064 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 18:54:58,397 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:54:58,397 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 18:55:00,609 - INFO - Количество записей до предобработки: 482238
+2025-05-07 18:55:01,246 - INFO - Количество записей после предобработки: 482238
+2025-05-07 18:55:01,449 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 18:55:41,197 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 18:55:41,312 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 18:55:41,313 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 18:55:41,470 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 19:04:28,000 - INFO - Успешное подключение к базе данных.
+2025-05-07 19:04:28,078 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 19:04:28,078 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 19:04:29,569 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:04:29,569 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:04:31,736 - INFO - Количество записей до предобработки: 482238
+2025-05-07 19:04:32,358 - INFO - Количество записей после предобработки: 482238
+2025-05-07 19:04:32,558 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 19:05:11,088 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 19:05:11,197 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 19:05:11,197 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 19:05:13,529 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 19:08:28,226 - INFO - Успешное подключение к базе данных.
+2025-05-07 19:08:28,295 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 19:08:28,295 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 19:08:31,757 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:08:31,757 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:08:33,839 - INFO - Количество записей до предобработки: 482238
+2025-05-07 19:08:34,453 - INFO - Количество записей после предобработки: 482238
+2025-05-07 19:08:34,649 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 19:09:12,872 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 19:09:12,989 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 19:09:12,989 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 19:09:18,432 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 19:18:47,372 - INFO - Успешное подключение к базе данных.
+2025-05-07 19:18:47,452 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 19:18:47,452 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 19:18:48,803 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:18:48,803 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:18:50,828 - INFO - Количество записей до предобработки: 482238
+2025-05-07 19:18:51,451 - INFO - Количество записей после предобработки: 482238
+2025-05-07 19:18:51,643 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 19:19:30,019 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 19:19:30,139 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 19:19:30,139 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 19:19:40,664 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 19:25:42,234 - INFO - Успешное подключение к базе данных.
+2025-05-07 19:25:42,311 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 19:25:42,311 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 19:26:04,397 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:26:04,397 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:26:06,901 - INFO - Количество записей до предобработки: 482238
+2025-05-07 19:26:07,539 - INFO - Количество записей после предобработки: 482238
+2025-05-07 19:26:07,742 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 19:26:46,019 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 19:26:46,129 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 19:26:46,130 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 19:28:35,850 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 19:31:54,648 - INFO - Успешное подключение к базе данных.
+2025-05-07 19:31:54,719 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 19:31:54,719 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 19:31:56,101 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:31:56,101 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:31:58,103 - INFO - Количество записей до предобработки: 482238
+2025-05-07 19:31:58,727 - INFO - Количество записей после предобработки: 482238
+2025-05-07 19:31:58,925 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 19:32:37,365 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 19:32:37,475 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 19:32:37,475 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 19:34:24,858 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 19:44:31,373 - INFO - Успешное подключение к базе данных.
+2025-05-07 19:44:31,443 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 19:44:31,443 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 19:44:53,116 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:44:53,116 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:44:55,190 - INFO - Количество записей до предобработки: 482238
+2025-05-07 19:44:55,830 - INFO - Количество записей после предобработки: 482238
+2025-05-07 19:44:56,089 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 19:45:34,652 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 19:45:34,767 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 19:45:34,768 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 19:47:22,006 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 19:48:08,103 - INFO - Успешное подключение к базе данных.
+2025-05-07 19:48:08,173 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 19:48:08,173 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 19:48:09,428 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:48:09,428 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:48:11,448 - INFO - Количество записей до предобработки: 482238
+2025-05-07 19:48:12,092 - INFO - Количество записей после предобработки: 482238
+2025-05-07 19:48:12,296 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 19:48:52,112 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 19:48:52,231 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 19:48:52,232 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 19:50:39,471 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 19:54:07,606 - INFO - Успешное подключение к базе данных.
+2025-05-07 19:54:07,676 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 19:54:07,677 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 19:54:09,850 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:54:09,850 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 19:54:11,864 - INFO - Количество записей до предобработки: 482238
+2025-05-07 19:54:12,486 - INFO - Количество записей после предобработки: 482238
+2025-05-07 19:54:12,682 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 19:54:51,218 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 19:54:51,350 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 19:54:51,351 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 19:56:39,556 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 20:00:35,944 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:00:36,017 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:00:36,018 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:00:39,991 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:00:39,991 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:00:42,070 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:00:42,709 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:00:42,905 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:01:21,563 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:01:21,667 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:01:21,667 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:01:24,482 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 7: given 6
+2025-05-07 20:04:02,426 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:04:02,498 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:04:02,498 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:04:04,632 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:04:04,632 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:04:06,691 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:04:07,331 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:04:07,523 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:04:46,287 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:04:46,404 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:04:46,404 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:04:49,497 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 7: given 6
+2025-05-07 20:05:21,272 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:05:21,341 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:05:21,342 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:05:37,413 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:05:37,413 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:05:39,533 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:05:40,156 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:05:40,350 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:06:19,418 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:06:19,522 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:06:19,522 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:06:22,457 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 7: given 6
+2025-05-07 20:11:09,541 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:11:09,613 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:11:09,614 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:11:11,506 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:11:11,506 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:11:13,507 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:11:14,127 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:11:14,318 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:11:52,235 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:11:52,392 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:11:52,393 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:11:55,280 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 7: given 6
+2025-05-07 20:13:12,958 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:13:13,029 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:13:13,029 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:13:16,991 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:13:16,991 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:13:19,217 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:13:19,850 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:13:20,047 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:13:58,782 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:13:58,894 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:13:58,895 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:14:02,387 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 7: given 6
+2025-05-07 20:15:54,358 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:15:54,430 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:15:54,430 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:15:56,053 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:15:56,053 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:15:58,145 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:15:59,000 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:15:59,197 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:16:38,435 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:16:38,544 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:16:38,544 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:16:41,379 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 7: given 6
+2025-05-07 20:19:15,782 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:19:15,855 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:19:15,855 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:19:17,772 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:19:17,773 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:19:20,329 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:19:21,083 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:19:21,275 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:20:00,537 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:20:00,644 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:20:00,644 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:20:03,485 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 8: given 7
+2025-05-07 20:22:20,200 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:22:20,272 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:22:20,272 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:22:21,679 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:22:21,679 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:22:23,767 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:22:24,579 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:22:24,835 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:23:03,990 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:23:04,118 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:23:04,119 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:23:07,546 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 7: given 6
+2025-05-07 20:23:17,014 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:23:17,085 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:23:17,085 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:23:18,460 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:23:18,460 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:23:20,406 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:23:21,035 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:23:21,224 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:23:59,923 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:24:00,098 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:24:00,099 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:24:03,198 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 6: given 5
+2025-05-07 20:26:36,734 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:26:36,814 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:26:36,815 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:26:38,038 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:26:38,038 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:26:39,998 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:26:40,615 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:26:40,810 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:27:19,871 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:27:19,999 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:27:20,000 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:27:23,110 - ERROR - Ошибка при расчёте/сохранении JSON: index cannot be a set
+2025-05-07 20:28:28,755 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:28:28,825 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:28:28,825 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:28:30,147 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:28:30,147 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:28:32,111 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:28:32,731 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:28:32,930 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:29:11,577 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:29:11,684 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:29:11,684 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:29:14,947 - ERROR - Ошибка при расчёте/сохранении JSON: Unable to coerce to Series, length must be 7: given 6
+2025-05-07 20:32:17,499 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:32:17,569 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:32:17,569 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:32:19,069 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:32:19,069 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:32:21,095 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:32:21,720 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:32:21,917 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:33:00,643 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:33:00,749 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:33:00,749 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:34:48,320 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 20:37:56,579 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:37:56,651 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:37:56,652 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:37:58,256 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:37:58,256 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:38:00,263 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:38:00,885 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:38:01,085 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:38:39,926 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:38:40,032 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:38:40,033 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:40:31,770 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 20:42:11,724 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:42:11,797 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:42:11,798 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:42:13,256 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:42:13,256 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:42:15,442 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:42:16,112 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:42:16,315 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:42:55,827 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:42:55,932 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:42:55,932 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:44:47,190 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 20:48:17,157 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:48:17,228 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:48:17,228 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:48:18,615 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:48:18,615 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:48:20,633 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:48:21,258 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:48:21,449 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:49:00,065 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:49:00,168 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:49:00,169 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:50:50,328 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 20:55:07,161 - INFO - Успешное подключение к базе данных.
+2025-05-07 20:55:07,232 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 20:55:07,232 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 20:55:08,756 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:55:08,756 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 20:55:10,830 - INFO - Количество записей до предобработки: 482238
+2025-05-07 20:55:11,476 - INFO - Количество записей после предобработки: 482238
+2025-05-07 20:55:11,671 - INFO - Количество записей после удаления выбросов: 342867
+2025-05-07 20:55:50,510 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 20:55:50,693 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 20:55:50,693 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 20:57:40,435 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 21:01:34,713 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:01:34,783 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:01:34,783 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:01:36,100 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:01:36,100 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:01:38,144 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:01:42,387 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:01:42,571 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:02:21,445 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:02:22,578 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:02:22,578 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:04:14,333 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 21:11:17,813 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:11:17,888 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:11:17,888 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:11:19,287 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:11:19,287 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:11:21,432 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:11:25,817 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:11:25,998 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:12:05,582 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:12:05,748 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:12:05,748 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:12:06,031 - ERROR - Ошибка при расчёте/сохранении JSON: 'spending'
+2025-05-07 21:14:26,065 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:14:26,135 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:14:26,135 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:14:27,507 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:14:27,507 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:14:29,568 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:14:33,826 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:14:34,005 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:15:13,040 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:15:13,146 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:15:13,146 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:15:18,611 - ERROR - Ошибка при расчёте/сохранении JSON: "['avg_spending_per_visitor', 'median_spending_per_visitor', 'variation_coefficient', 'spending', 'potential_spending'] not in index"
+2025-05-07 21:16:27,696 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:16:27,769 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:16:27,769 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:16:29,522 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:16:29,522 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:16:31,572 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:16:35,795 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:16:35,977 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:17:15,847 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:17:16,023 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:17:16,023 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:17:21,391 - ERROR - Ошибка при расчёте/сохранении JSON: "['avg_spending_per_visitor', 'median_spending_per_visitor', 'variation_coefficient', 'spending', 'potential_spending'] not in index"
+2025-05-07 21:21:28,533 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:21:28,602 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:21:28,603 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:21:30,194 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:21:30,194 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:21:32,191 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:21:37,209 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:21:37,389 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:22:17,588 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:22:17,728 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:22:17,729 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:24:06,401 - ERROR - Ошибка при расчёте/сохранении JSON: keys must be str, int, float, bool or None, not Period
+2025-05-07 21:25:41,629 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:25:41,705 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:25:41,705 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:25:43,257 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:25:43,257 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:25:45,481 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:25:49,902 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:25:50,090 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:26:29,345 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:26:29,456 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:26:29,457 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:28:20,295 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 21:38:54,606 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:38:54,675 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:38:54,675 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:38:56,225 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:38:56,225 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:38:58,223 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:39:03,620 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:39:03,810 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:39:47,125 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:39:47,241 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:39:47,242 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:41:37,427 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 21:42:56,401 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:42:56,472 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:42:56,472 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:42:58,257 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:42:58,257 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:43:00,283 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:43:05,656 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:43:05,847 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:43:44,489 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:43:44,603 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:43:44,604 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:45:35,869 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 21:51:22,087 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:51:22,162 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:51:22,162 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:52:02,913 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:52:02,913 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:52:05,121 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:52:10,792 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:52:10,990 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:52:52,062 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:52:52,171 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:52:52,172 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:54:46,564 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 21:56:57,081 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:56:57,155 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:56:57,155 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:56:58,741 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:56:58,741 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:57:00,769 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:57:06,212 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:57:06,402 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:57:45,373 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:57:45,487 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:57:45,488 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:57:49,242 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 21:58:20,548 - INFO - Успешное подключение к базе данных.
+2025-05-07 21:58:20,617 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 21:58:20,618 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 21:58:22,257 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:58:22,257 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 21:58:24,270 - INFO - Количество записей до предобработки: 482238
+2025-05-07 21:58:29,696 - INFO - Количество записей после предобработки: 482233
+2025-05-07 21:58:29,884 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 21:59:08,189 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 21:59:08,316 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 21:59:08,316 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 21:59:11,915 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:04:46,817 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:04:46,887 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:04:46,888 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:04:48,788 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:04:48,788 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:04:51,231 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:04:56,672 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:04:56,862 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:05:35,505 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:05:35,631 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:05:35,631 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:06:02,389 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:06:02,460 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:06:02,461 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:06:04,069 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:06:04,069 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:06:06,210 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:06:11,645 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:06:11,833 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:06:50,706 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:06:50,818 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:06:50,818 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:07:04,641 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:09:00,088 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:09:00,157 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:09:00,158 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:09:01,569 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:09:01,569 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:09:03,625 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:09:09,856 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:09:10,045 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:09:48,273 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:09:48,389 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:09:48,390 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:09:51,995 - ERROR - Ошибка при расчёте/сохранении JSON: can only concatenate str (not "Timestamp") to str
+2025-05-07 22:10:10,896 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:10:10,972 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:10:10,972 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:10:12,819 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:10:12,819 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:10:15,186 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:10:21,960 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:10:22,152 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:11:01,148 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:11:01,275 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:11:01,276 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:16:07,707 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:16:30,821 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:16:30,894 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:16:30,895 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:16:32,335 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:16:32,335 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:16:34,407 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:16:40,495 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:16:40,697 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:17:20,002 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:17:20,156 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:17:20,156 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:17:23,788 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:17:51,237 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:17:51,694 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:17:51,694 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:17:53,428 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:17:53,428 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:17:55,467 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:18:01,279 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:18:01,485 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:18:40,506 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:18:40,612 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:18:40,612 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:18:44,269 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:21:14,696 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:21:14,765 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:21:14,765 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:21:16,023 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:21:16,023 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:21:18,069 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:21:23,540 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:21:23,729 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:22:02,334 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:22:02,457 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:22:02,457 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:22:06,139 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:24:26,102 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:24:26,174 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:24:26,174 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:25:36,101 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:25:36,101 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:25:38,164 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:25:43,564 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:25:43,756 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:26:22,370 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:26:22,482 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:26:22,482 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:26:26,093 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:29:34,603 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:29:34,675 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:29:34,675 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:29:42,038 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:29:42,039 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:29:44,062 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:29:50,208 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:29:50,402 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:30:30,598 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:30:30,728 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:30:30,729 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:30:34,375 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:32:55,720 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:32:55,789 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:32:55,790 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:32:56,960 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:32:56,960 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:32:58,936 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:33:04,396 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:33:04,584 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:33:43,619 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:33:43,743 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:33:43,743 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:33:46,935 - ERROR - Ошибка при расчёте/сохранении JSON: bootstrap_ci() missing 1 required positional argument: 'weights'
+2025-05-07 22:34:37,019 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:34:37,087 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:34:37,088 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:34:38,506 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:34:38,506 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:34:40,563 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:34:46,003 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:34:46,262 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:35:26,236 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:35:26,394 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:35:26,395 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:35:36,438 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:38:15,283 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:38:15,354 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:38:15,354 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:38:16,819 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:38:16,819 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:38:18,911 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:38:24,656 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:38:24,846 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:39:04,608 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:39:04,732 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:39:04,732 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:39:14,718 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:40:23,165 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:40:23,237 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:40:23,237 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:40:24,882 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:40:24,882 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:40:26,923 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:40:32,526 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:40:32,716 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:41:11,531 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:41:11,645 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:41:11,645 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:41:21,660 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:41:44,806 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:41:44,885 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:41:44,886 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:41:46,584 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:41:46,584 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:41:48,745 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:41:54,546 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:41:54,747 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:42:34,962 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:42:35,077 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:42:35,077 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:43:42,902 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:43:53,516 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:43:53,588 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:43:53,588 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:43:56,897 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:43:56,897 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:43:59,026 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:44:04,516 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:44:04,718 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:44:44,241 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:44:44,365 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:44:44,365 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:44:47,594 - ERROR - Ошибка при расчёте/сохранении JSON: 'a' and 'p' must have same size
+2025-05-07 22:45:56,278 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:45:56,349 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:45:56,350 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:45:57,835 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:45:57,835 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:45:59,905 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:46:05,378 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:46:05,574 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:46:44,909 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:46:45,010 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:46:45,010 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:46:48,222 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:50:08,918 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:50:08,987 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:50:08,987 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:50:10,319 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:50:10,319 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:50:12,423 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:50:18,362 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:50:18,555 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:50:57,150 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:50:57,255 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:50:57,255 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:51:00,495 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 22:55:14,521 - INFO - Успешное подключение к базе данных.
+2025-05-07 22:55:14,592 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 22:55:14,593 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 22:55:16,038 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:55:16,038 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 22:55:18,050 - INFO - Количество записей до предобработки: 482238
+2025-05-07 22:55:23,426 - INFO - Количество записей после предобработки: 482233
+2025-05-07 22:55:23,617 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 22:56:02,068 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 22:56:02,185 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 22:56:02,186 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 22:56:05,886 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 23:05:19,839 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:05:19,911 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:05:19,912 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:05:21,226 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:05:21,226 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:05:23,501 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:05:28,942 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:05:29,132 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:06:07,420 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:06:07,630 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:06:07,631 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:06:11,392 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 23:09:52,018 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:09:52,087 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:09:52,087 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:09:53,444 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:09:53,444 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:09:55,475 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:10:00,928 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:10:01,125 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:10:11,523 - ERROR - Ошибка при загрузке в staging: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-05-07 23:10:11,676 - ERROR - Ошибка транзакционного swap: (psycopg2.errors.UndefinedTable) relation "tourism_data_staging" does not exist
+
+[SQL: ALTER TABLE tourism_data_staging RENAME TO tourism_data;]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-07 23:10:11,676 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:10:11,843 - ERROR - Ошибка при расчёте/сохранении JSON: 'variation_coefficient'
+2025-05-07 23:10:20,155 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:10:20,235 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:10:20,235 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:10:22,538 - INFO - Файл не выбран. Прекращаем выполнение.
+2025-05-07 23:10:54,013 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:10:54,084 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:10:54,085 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:10:55,585 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:10:55,585 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:10:57,535 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:11:02,973 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:11:03,164 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:11:40,555 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:11:40,658 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:11:40,658 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:11:40,847 - ERROR - Ошибка при расчёте/сохранении JSON: 'potential_spending'
+2025-05-07 23:12:29,467 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:12:29,539 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:12:29,539 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:12:34,569 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:12:34,569 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:12:36,701 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:12:42,401 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:12:42,593 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:13:21,144 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:13:21,298 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:13:21,299 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:13:24,970 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 23:31:24,870 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:31:24,940 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:31:24,940 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:31:26,429 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:31:26,429 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:31:28,803 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:31:35,655 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:31:35,847 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:32:15,078 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:32:15,190 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:32:15,190 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:32:18,299 - ERROR - Ошибка при расчёте/сохранении JSON: too many values to unpack (expected 2)
+2025-05-07 23:33:27,994 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:33:28,067 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:33:28,067 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:33:29,460 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:33:29,460 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:33:31,505 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:33:37,035 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:33:37,225 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:34:15,833 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:34:15,961 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:34:15,962 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:34:20,089 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 23:41:54,498 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:41:54,570 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:41:54,570 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:41:55,819 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:41:55,819 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:41:57,884 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:42:03,642 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:42:03,837 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:42:25,369 - ERROR - Ошибка при загрузке в staging: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-05-07 23:42:25,510 - ERROR - Ошибка транзакционного swap: (psycopg2.errors.UndefinedTable) relation "tourism_data_staging" does not exist
+
+[SQL: ALTER TABLE tourism_data_staging RENAME TO tourism_data;]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-07 23:42:25,510 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:42:29,952 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 23:42:52,638 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:42:52,709 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:42:52,710 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:42:54,319 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:42:54,319 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:42:56,676 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:43:02,150 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:43:02,344 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:43:41,810 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:43:41,912 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:43:41,912 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:43:46,001 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 23:44:00,015 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:44:00,087 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:44:00,087 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:44:09,256 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:44:09,256 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:44:11,254 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:44:17,024 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:44:17,213 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:44:55,644 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:44:55,750 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:44:55,750 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:44:59,842 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 23:47:12,506 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:47:12,576 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:47:12,576 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:47:13,944 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:47:13,944 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:47:16,358 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:47:21,816 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:47:22,004 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:48:01,147 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:48:01,261 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:48:01,261 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:48:07,493 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-07 23:56:24,558 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:56:24,629 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:56:24,629 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:56:26,678 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:56:26,678 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:56:28,676 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:56:34,693 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:56:34,892 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:57:13,010 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:57:13,114 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:57:13,115 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:57:18,892 - ERROR - Ошибка при расчёте/сохранении JSON: '<' not supported between instances of 'int' and 'tuple'
+2025-05-07 23:58:53,720 - INFO - Успешное подключение к базе данных.
+2025-05-07 23:58:53,796 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-07 23:58:53,797 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-07 23:58:56,241 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:58:56,241 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-07 23:58:58,251 - INFO - Количество записей до предобработки: 482238
+2025-05-07 23:59:03,695 - INFO - Количество записей после предобработки: 482233
+2025-05-07 23:59:03,885 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-07 23:59:41,727 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-07 23:59:41,824 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-07 23:59:41,824 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-07 23:59:47,565 - ERROR - Ошибка при расчёте/сохранении JSON: '<' not supported between instances of 'int' and 'tuple'
+2025-05-08 00:01:03,405 - INFO - Успешное подключение к базе данных.
+2025-05-08 00:01:03,474 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 00:01:03,474 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 00:01:04,897 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:01:04,897 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:01:06,964 - INFO - Количество записей до предобработки: 482238
+2025-05-08 00:01:12,487 - INFO - Количество записей после предобработки: 482233
+2025-05-08 00:01:12,678 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 00:01:50,889 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-08 00:01:50,994 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-08 00:01:50,994 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-08 00:01:56,866 - ERROR - Ошибка при расчёте/сохранении JSON: '<' not supported between instances of 'int' and 'tuple'
+2025-05-08 00:03:50,459 - INFO - Успешное подключение к базе данных.
+2025-05-08 00:03:50,530 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 00:03:50,530 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 00:03:52,006 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:03:52,006 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:03:54,075 - INFO - Количество записей до предобработки: 482238
+2025-05-08 00:03:59,514 - INFO - Количество записей после предобработки: 482233
+2025-05-08 00:03:59,706 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 00:04:39,006 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-08 00:04:39,120 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-08 00:04:39,121 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-08 00:04:46,542 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 00:06:03,005 - INFO - Успешное подключение к базе данных.
+2025-05-08 00:06:03,079 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 00:06:03,080 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 00:06:04,553 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:06:04,553 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:06:06,717 - INFO - Количество записей до предобработки: 482238
+2025-05-08 00:06:12,254 - INFO - Количество записей после предобработки: 482233
+2025-05-08 00:06:12,445 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 00:06:51,230 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-08 00:06:51,350 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-08 00:06:51,350 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-08 00:06:56,347 - ERROR - Ошибка при расчёте/сохранении JSON: unhashable type: 'slice'
+2025-05-08 00:08:39,556 - INFO - Успешное подключение к базе данных.
+2025-05-08 00:08:39,628 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 00:08:39,628 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 00:08:41,037 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:08:41,037 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:08:42,993 - INFO - Количество записей до предобработки: 482238
+2025-05-08 00:08:48,376 - INFO - Количество записей после предобработки: 482233
+2025-05-08 00:08:48,564 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 00:09:26,640 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-08 00:09:26,751 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-08 00:09:26,751 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-08 00:09:34,071 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 00:13:12,654 - INFO - Успешное подключение к базе данных.
+2025-05-08 00:13:12,723 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 00:13:12,723 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 00:13:14,194 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:13:14,194 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:13:16,277 - INFO - Количество записей до предобработки: 482238
+2025-05-08 00:13:21,758 - INFO - Количество записей после предобработки: 482233
+2025-05-08 00:13:21,948 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 00:13:50,269 - ERROR - Ошибка при загрузке в staging: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-05-08 00:13:50,395 - ERROR - Ошибка транзакционного swap: (psycopg2.errors.UndefinedTable) relation "tourism_data_staging" does not exist
+
+[SQL: ALTER TABLE tourism_data_staging RENAME TO tourism_data;]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-05-08 00:13:50,395 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-08 00:13:58,051 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 00:14:05,393 - INFO - Успешное подключение к базе данных.
+2025-05-08 00:14:05,468 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 00:14:05,468 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 00:14:07,226 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:14:07,226 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:14:09,221 - INFO - Количество записей до предобработки: 482238
+2025-05-08 00:14:14,695 - INFO - Количество записей после предобработки: 482233
+2025-05-08 00:14:14,884 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 00:14:54,067 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-08 00:14:54,193 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-08 00:14:54,194 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-08 00:15:00,464 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 00:16:42,763 - INFO - Успешное подключение к базе данных.
+2025-05-08 00:16:42,836 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 00:16:42,836 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 00:16:44,241 - INFO - Файл не выбран. Прекращаем выполнение.
+2025-05-08 00:16:53,581 - INFO - Успешное подключение к базе данных.
+2025-05-08 00:16:53,651 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 00:16:53,651 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 00:17:04,443 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:17:04,443 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:17:06,434 - INFO - Количество записей до предобработки: 482238
+2025-05-08 00:17:11,846 - INFO - Количество записей после предобработки: 482233
+2025-05-08 00:17:12,037 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 00:17:50,157 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-08 00:17:50,274 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-08 00:17:50,274 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-08 00:17:56,520 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 00:19:38,199 - INFO - Успешное подключение к базе данных.
+2025-05-08 00:19:38,267 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 00:19:38,268 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 00:19:39,959 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:19:39,959 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 00:19:41,972 - INFO - Количество записей до предобработки: 482238
+2025-05-08 00:19:47,796 - INFO - Количество записей после предобработки: 482233
+2025-05-08 00:19:47,992 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 14:45:25,600 - INFO - Успешное подключение к базе данных.
+2025-05-08 14:45:26,185 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 14:45:26,186 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 14:45:28,320 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 14:45:28,320 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 14:45:30,394 - INFO - Количество записей до предобработки: 482238
+2025-05-08 14:45:39,891 - INFO - Количество записей после предобработки: 482233
+2025-05-08 14:45:40,092 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 14:47:44,953 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging'
+2025-05-08 14:47:45,082 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-08 14:47:45,082 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-08 14:47:53,187 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 14:53:44,339 - INFO - Успешное подключение к базе данных.
+2025-05-08 14:53:44,410 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 14:53:44,410 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 14:53:46,585 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 14:53:46,585 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 14:53:49,030 - INFO - Количество записей до предобработки: 482238
+2025-05-08 14:53:58,791 - INFO - Количество записей после предобработки: 482233
+2025-05-08 14:53:58,984 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 14:54:01,752 - ERROR - Ошибка при bulk-load в staging: relation "tourism_data_staging" does not exist
+
+2025-05-08 14:55:04,593 - INFO - Успешное подключение к базе данных.
+2025-05-08 14:55:04,666 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 14:55:04,667 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 14:55:06,398 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 14:55:06,398 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 14:55:08,719 - INFO - Количество записей до предобработки: 482238
+2025-05-08 14:55:18,197 - INFO - Количество записей после предобработки: 482233
+2025-05-08 14:55:18,389 - INFO - Количество записей после удаления выбросов: 342862
+2025-05-08 14:55:32,449 - INFO - Данные загружены в staging-таблицу 'tourism_data_staging' через COPY
+2025-05-08 14:55:32,574 - INFO - Таблицы успешно переключены: staging -> main
+2025-05-08 14:55:32,575 - INFO - Запуск calculate_indicators и перезапись indicators.json...
+2025-05-08 14:55:38,674 - INFO - JSON сохранён: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 15:11:23,408 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:11:23,493 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 15:11:23,493 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:11:37,173 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:11:37,244 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 15:11:37,245 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:11:38,647 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:11:38,648 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:11:40,305 - ERROR - Ошибка при начальной загрузке данных: could not convert string to float: 'DAYS_CNT'
+2025-05-08 15:15:59,277 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:15:59,359 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 15:15:59,359 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:16:00,772 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:16:00,772 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:16:02,875 - INFO - Записей до предобработки: 482238
+2025-05-08 15:16:03,192 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:16:07,242 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 15:16:07,316 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 15:16:07,575 - ERROR - Ошибка при bulk-load в staging: relation "tourism_data_staging" does not exist
+
+2025-05-08 15:16:07,575 - ERROR - Ошибка при начальной загрузке данных: relation "tourism_data_staging" does not exist
+
+2025-05-08 15:20:40,092 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:20:40,165 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 15:20:40,165 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:20:41,695 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:20:41,695 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:20:43,768 - INFO - Записей до предобработки: 482238
+2025-05-08 15:20:44,079 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:20:48,038 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 15:20:48,112 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 15:20:56,514 - ERROR - Ошибка при bulk-load в staging: invalid input syntax for type timestamp: "Нижегородская область"
+CONTEXT:  COPY tourism_data_staging, line 1, column DATE_OF_ARRIVAL: "Нижегородская область"
+
+2025-05-08 15:20:56,515 - ERROR - Ошибка при начальной загрузке данных: invalid input syntax for type timestamp: "Нижегородская область"
+CONTEXT:  COPY tourism_data_staging, line 1, column DATE_OF_ARRIVAL: "Нижегородская область"
+
+2025-05-08 15:27:06,604 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:27:06,675 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 15:27:06,675 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:27:08,351 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:27:08,351 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:27:10,406 - ERROR - Ошибка при начальной загрузке данных: could not convert string to float: 'DAYS_CNT'
+2025-05-08 15:30:23,319 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:30:23,390 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 15:30:23,391 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:30:24,725 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:30:24,725 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:30:26,812 - INFO - Записей до предобработки: 482238
+2025-05-08 15:30:27,139 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:30:30,533 - ERROR - Ошибка при начальной загрузке данных: Cannot convert ['18' '8' '1' ... '1' '12' nan] to numeric
+2025-05-08 15:31:48,464 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:31:48,537 - INFO - DEBUG: default_dir установлен как F:\projects\Diploma_practice\data
+2025-05-08 15:31:48,537 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:31:50,101 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:31:50,101 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:31:52,159 - INFO - Записей до предобработки: 482238
+2025-05-08 15:31:52,585 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:31:56,545 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 15:31:56,619 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 15:31:58,670 - ERROR - Ошибка при bulk-load в staging: column "date_of_arrival" of relation "tourism_data_staging" does not exist
+
+2025-05-08 15:31:58,671 - ERROR - Ошибка при начальной загрузке данных: column "date_of_arrival" of relation "tourism_data_staging" does not exist
+
+2025-05-08 15:35:45,855 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:35:45,928 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 15:35:45,928 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:35:47,413 - INFO -  Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:35:47,414 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:35:49,415 - INFO - Записей до предобработки: 482238
+2025-05-08 15:35:49,736 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:35:54,234 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 15:35:54,311 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 15:35:56,348 - ERROR -  Ошибка при bulk-load в staging: column "date_of_arrival" of relation "tourism_data_staging" does not exist
+
+2025-05-08 15:35:56,349 - ERROR - Ошибка при начальной загрузке данных: column "date_of_arrival" of relation "tourism_data_staging" does not exist
+
+2025-05-08 15:38:00,988 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:38:01,059 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 15:38:01,059 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:38:02,600 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:38:02,600 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:38:04,669 - INFO - Записей до предобработки: 482238
+2025-05-08 15:38:04,987 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:38:08,924 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 15:38:08,996 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 15:38:18,077 - INFO - Данные загружены в staging через COPY
+2025-05-08 15:38:18,194 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 15:38:18,195 - INFO - Запуск calculate_indicators...
+2025-05-08 15:38:18,196 - ERROR - Ошибка при расчёте индикаторов: Can only use .dt accessor with datetimelike values
+2025-05-08 15:40:09,020 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:40:09,095 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 15:40:09,095 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:40:10,398 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:40:10,398 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:40:12,453 - INFO - Записей до предобработки: 482238
+2025-05-08 15:40:12,766 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:40:16,653 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 15:40:16,724 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 15:40:25,464 - INFO - Данные загружены в staging через COPY
+2025-05-08 15:40:25,564 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 15:40:25,564 - INFO - Запуск calculate_indicators...
+2025-05-08 15:40:25,728 - ERROR - Ошибка при расчёте индикаторов: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Index'
+2025-05-08 15:42:37,974 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:42:38,046 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 15:42:38,046 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:42:39,413 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:42:39,414 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:42:41,671 - INFO - Записей до предобработки: 482238
+2025-05-08 15:42:41,986 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:42:45,911 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 15:42:45,987 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 15:42:55,117 - INFO - Данные загружены в staging через COPY
+2025-05-08 15:42:55,224 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 15:42:55,224 - INFO - Запуск calculate_indicators...
+2025-05-08 15:42:55,388 - ERROR - Ошибка при расчёте индикаторов: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Index'
+2025-05-08 15:47:28,617 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:47:28,690 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 15:47:28,690 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:47:31,007 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:47:31,008 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:47:32,870 - INFO - Записей до предобработки: 482238
+2025-05-08 15:47:33,187 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:47:37,061 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 15:47:37,134 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 15:47:46,150 - INFO - Данные загружены в staging через COPY
+2025-05-08 15:47:46,400 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 15:47:46,401 - INFO - Запуск calculate_indicators...
+2025-05-08 15:47:52,361 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 15:52:20,118 - INFO - Успешное подключение к базе данных.
+2025-05-08 15:52:20,193 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 15:52:20,193 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 15:52:26,351 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:52:26,351 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 15:52:28,549 - INFO - Записей до предобработки: 482238
+2025-05-08 15:52:28,875 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 15:52:32,850 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 15:52:32,926 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 15:52:41,773 - INFO - Данные загружены в staging через COPY
+2025-05-08 15:52:41,878 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 15:52:41,878 - INFO - Запуск calculate_indicators...
+2025-05-08 15:52:47,999 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 16:06:59,396 - INFO - Успешное подключение к базе данных.
+2025-05-08 16:06:59,469 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 16:06:59,470 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 16:07:01,116 - INFO - Файл не выбран. Выход.
+2025-05-08 19:47:38,692 - INFO - Успешное подключение к базе данных.
+2025-05-08 19:47:38,769 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 19:47:38,769 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 19:47:40,913 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 19:47:40,913 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 19:47:43,170 - INFO - Записей до предобработки: 482238
+2025-05-08 19:47:43,488 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 19:47:47,458 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 19:47:47,533 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 19:47:56,467 - INFO - Данные загружены в staging через COPY
+2025-05-08 19:47:56,717 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 19:47:56,717 - INFO - Запуск calculate_indicators...
+2025-05-08 19:48:02,829 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 19:51:27,615 - INFO - Успешное подключение к базе данных.
+2025-05-08 19:51:27,686 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 19:51:27,686 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 19:51:30,194 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 19:51:30,194 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 19:51:32,323 - INFO - Записей до предобработки: 482238
+2025-05-08 19:51:32,658 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 19:51:36,674 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 19:51:36,749 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 19:51:45,871 - INFO - Данные загружены в staging через COPY
+2025-05-08 19:51:46,003 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 19:51:46,004 - INFO - Запуск calculate_indicators...
+2025-05-08 19:51:58,678 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 19:54:39,783 - INFO - Успешное подключение к базе данных.
+2025-05-08 19:54:39,855 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 19:54:39,855 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 19:54:41,132 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 19:54:41,132 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 19:54:42,960 - INFO - Записей до предобработки: 482238
+2025-05-08 19:54:43,281 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 19:54:47,162 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 19:54:47,240 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 19:54:56,168 - INFO - Данные загружены в staging через COPY
+2025-05-08 19:54:56,307 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 19:54:56,308 - INFO - Запуск calculate_indicators...
+2025-05-08 19:55:31,889 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 20:09:06,669 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:09:06,764 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:09:06,764 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:11:58,651 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:11:58,725 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:11:58,725 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:12:03,885 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:12:03,955 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:12:03,956 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:12:05,256 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:12:05,256 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:12:07,440 - INFO - Записей до предобработки: 482238
+2025-05-08 20:12:08,099 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 20:12:13,054 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 20:12:13,137 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 20:12:22,017 - INFO - Данные загружены в staging через COPY
+2025-05-08 20:12:22,252 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 20:12:22,252 - INFO - Запуск calculate_indicators...
+2025-05-08 20:12:29,745 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 20:28:47,934 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:28:48,014 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:28:48,015 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:28:49,382 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:28:49,382 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:28:51,255 - INFO - Записей до предобработки: 482238
+2025-05-08 20:28:51,575 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 20:28:55,456 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 20:28:55,533 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 20:29:04,988 - INFO - Данные загружены в staging через COPY
+2025-05-08 20:29:05,095 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 20:29:05,095 - INFO - Запуск calculate_indicators...
+2025-05-08 20:29:10,128 - ERROR - Ошибка при расчёте индикаторов: cannot unpack non-iterable numpy.float64 object
+2025-05-08 20:34:42,361 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:34:42,431 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:34:42,432 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:34:43,991 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:34:43,991 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:34:46,941 - INFO - Записей до предобработки: 482238
+2025-05-08 20:34:47,263 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 20:34:51,199 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 20:34:51,279 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 20:34:59,843 - INFO - Данные загружены в staging через COPY
+2025-05-08 20:35:00,001 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 20:35:00,002 - INFO - Запуск calculate_indicators...
+2025-05-08 20:35:03,120 - ERROR - Ошибка при расчёте индикаторов: cannot unpack non-iterable numpy.float64 object
+2025-05-08 20:37:50,115 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:37:50,186 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:37:50,187 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:37:51,819 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:37:51,819 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:37:54,128 - INFO - Записей до предобработки: 482238
+2025-05-08 20:37:54,643 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 20:37:58,576 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 20:37:58,652 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 20:38:08,038 - INFO - Данные загружены в staging через COPY
+2025-05-08 20:38:08,139 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 20:38:08,139 - INFO - Запуск calculate_indicators...
+2025-05-08 20:38:11,784 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 20:39:09,996 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:39:10,079 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:39:10,080 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:39:11,475 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:39:11,475 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:39:14,255 - INFO - Записей до предобработки: 482238
+2025-05-08 20:39:14,589 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 20:39:18,514 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 20:39:18,590 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 20:39:27,300 - INFO - Данные загружены в staging через COPY
+2025-05-08 20:39:27,442 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 20:39:27,442 - INFO - Запуск calculate_indicators...
+2025-05-08 20:39:31,055 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 20:40:55,062 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:40:55,134 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:40:55,134 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:40:57,022 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:40:57,022 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:40:59,544 - INFO - Записей до предобработки: 482238
+2025-05-08 20:40:59,903 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 20:41:03,889 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 20:41:03,966 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 20:41:12,840 - INFO - Данные загружены в staging через COPY
+2025-05-08 20:41:12,955 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 20:41:12,955 - INFO - Запуск calculate_indicators...
+2025-05-08 20:41:16,574 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 20:41:49,939 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:41:50,010 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:41:50,011 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:41:51,538 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:41:51,538 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:41:54,081 - INFO - Записей до предобработки: 482238
+2025-05-08 20:41:54,578 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 20:41:58,748 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 20:41:58,822 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 20:42:07,716 - INFO - Данные загружены в staging через COPY
+2025-05-08 20:42:07,824 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 20:42:07,824 - INFO - Запуск calculate_indicators...
+2025-05-08 20:42:21,162 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 20:59:17,024 - INFO - Успешное подключение к базе данных.
+2025-05-08 20:59:17,096 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 20:59:17,096 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 20:59:18,906 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:59:18,906 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 20:59:21,157 - INFO - Записей до предобработки: 482238
+2025-05-08 20:59:21,757 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 20:59:25,938 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 20:59:26,014 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 20:59:34,696 - INFO - Данные загружены в staging через COPY
+2025-05-08 20:59:34,803 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 20:59:34,804 - INFO - Запуск calculate_indicators...
+2025-05-08 20:59:38,544 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 21:11:42,257 - INFO - Успешное подключение к базе данных.
+2025-05-08 21:11:42,327 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 21:11:42,328 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 21:11:45,640 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 21:11:45,640 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 21:11:48,195 - INFO - Записей до предобработки: 482238
+2025-05-08 21:11:48,570 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 21:11:52,928 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 21:11:53,007 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 21:12:01,770 - INFO - Данные загружены в staging через COPY
+2025-05-08 21:12:01,937 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 21:12:01,938 - INFO - Запуск calculate_indicators...
+2025-05-08 21:12:06,205 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-08 21:12:24,398 - INFO - Успешное подключение к базе данных.
+2025-05-08 21:12:24,481 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-08 21:12:24,481 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-08 21:12:26,077 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 21:12:26,077 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-08 21:12:29,449 - INFO - Записей до предобработки: 482238
+2025-05-08 21:12:29,850 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-08 21:12:34,173 - INFO - Записей после заполнения пропусков: 482233
+2025-05-08 21:12:34,251 - INFO - Записей после удаления выбросов: 350491
+2025-05-08 21:12:42,949 - INFO - Данные загружены в staging через COPY
+2025-05-08 21:12:43,047 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-08 21:12:43,048 - INFO - Запуск calculate_indicators...
+2025-05-08 21:12:48,103 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-09 18:59:22,060 - INFO - Успешное подключение к базе данных.
+2025-05-09 18:59:22,599 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-09 18:59:22,600 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-09 18:59:24,054 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-09 18:59:24,054 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-09 18:59:25,934 - INFO - Записей до предобработки: 482238
+2025-05-09 18:59:26,256 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-09 18:59:30,203 - INFO - Записей после заполнения пропусков: 482233
+2025-05-09 18:59:30,282 - INFO - Записей после удаления выбросов: 350491
+2025-05-09 18:59:30,282 - ERROR - Ошибка при начальной загрузке данных: Can only use .dt accessor with datetimelike values
+2025-05-09 19:02:04,013 - INFO - Успешное подключение к базе данных.
+2025-05-09 19:02:04,078 - INFO - DEBUG: default_dir = F:\projects\Diploma_practice\data
+2025-05-09 19:02:04,079 - INFO - Выберите CSV-файл (по умолчанию: F:\projects\Diploma_practice\data)...
+2025-05-09 19:02:05,695 - INFO - Выбран файл: F:/projects/Diploma_practice/data/final.csv
+2025-05-09 19:02:05,695 - INFO - Загрузка данных из файла: F:/projects/Diploma_practice/data/final.csv
+2025-05-09 19:02:07,901 - INFO - Записей до предобработки: 482238
+2025-05-09 19:02:08,233 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-09 19:02:11,581 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 482232
+2025-05-09 19:02:12,171 - INFO - Записей после заполнения пропусков: 482232
+2025-05-09 19:02:12,242 - INFO - Записей после удаления выбросов: 350490
+2025-05-09 19:02:23,313 - INFO - Данные загружены в staging через COPY
+2025-05-09 19:02:23,453 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-09 19:02:23,454 - INFO - Запуск calculate_indicators...
+2025-05-09 19:02:27,781 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-09 23:08:18,522 - INFO - Успешное подключение к базе данных.
+2025-05-09 23:08:18,522 - ERROR - CSV-файл не найден: ../data/final.csv
+2025-05-09 23:08:18,523 - ERROR - CSV-файл не найден: ../data/final.csv
+2025-05-09 23:35:19,041 - INFO - Успешное подключение к базе данных.
+2025-05-09 23:35:19,042 - INFO - Используется CSV: F:\projects\Diploma_practice\data\final.csv
+2025-05-09 23:35:19,042 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\data\final.csv
+2025-05-09 23:35:20,989 - INFO - Записей до предобработки: 482238
+2025-05-09 23:35:21,302 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-09 23:35:24,765 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 482232
+2025-05-09 23:35:25,332 - INFO - Записей после заполнения пропусков: 482232
+2025-05-09 23:35:25,403 - INFO - Записей после удаления выбросов: 350490
+2025-05-09 23:35:35,644 - INFO - Данные загружены в staging через COPY
+2025-05-09 23:35:35,735 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-09 23:35:35,735 - INFO - Запуск calculate_indicators...
+2025-05-09 23:35:39,813 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-09 23:38:28,014 - INFO - Успешное подключение к базе данных.
+2025-05-09 23:38:28,015 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-09 23:45:06,053 - INFO - Успешное подключение к базе данных.
+2025-05-09 23:45:06,054 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-09 23:46:37,132 - INFO - Успешное подключение к базе данных.
+2025-05-09 23:46:37,133 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-09 23:56:35,191 - INFO - Успешное подключение к базе данных.
+2025-05-09 23:56:35,192 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-09 23:57:35,705 - INFO - Успешное подключение к базе данных.
+2025-05-09 23:57:35,705 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 00:01:17,435 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 00:01:17,435 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 00:01:17,436 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 00:01:19,422 - INFO - Записей до предобработки: 482238
+2025-05-10 00:01:19,740 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-10 00:01:23,486 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 482232
+2025-05-10 00:01:24,070 - INFO - Записей после заполнения пропусков: 482232
+2025-05-10 00:01:24,142 - INFO - Записей после удаления выбросов: 350490
+2025-05-10 00:01:34,453 - INFO - Данные загружены в staging через COPY
+2025-05-10 00:01:34,559 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 00:01:34,559 - INFO - Запуск calculate_indicators...
+2025-05-10 00:01:38,873 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 00:02:28,741 - INFO - Успешное подключение к базе данных.
+2025-05-10 00:02:28,742 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 00:04:22,739 - INFO - Успешное подключение к базе данных.
+2025-05-10 00:04:22,739 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 00:06:49,256 - INFO - Успешное подключение к базе данных.
+2025-05-10 00:06:49,257 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 00:07:54,186 - INFO - Успешное подключение к базе данных.
+2025-05-10 00:07:54,186 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 00:07:56,606 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 00:08:38,840 - INFO - Успешное подключение к базе данных.
+2025-05-10 00:08:38,841 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 00:12:26,046 - INFO - Успешное подключение к базе данных.
+2025-05-10 00:12:26,046 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 00:17:25,112 - INFO - Успешное подключение к базе данных.
+2025-05-10 00:17:25,113 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 00:17:36,159 - INFO - Готовлю к скачиванию F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 00:17:49,910 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 00:17:56,057 - INFO - Готовлю к скачиванию F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 00:22:21,577 - INFO - Успешное подключение к базе данных.
+2025-05-10 00:22:21,577 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-09 21:46:46,767 - INFO - РЈСЃРїРµС€РЅРѕРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ Рє Р±Р°Р·Рµ РґР°РЅРЅС‹С….
+2025-05-09 21:46:46,769 - INFO - Р¤Р°Р№Р» РїРѕРєР°Р·Р°С‚РµР»РµР№ РЅР°Р№РґРµРЅ (/app/output/indicators.json), РЅР°С‡Р°Р»СЊРЅР°СЏ Р·Р°РіСЂСѓР·РєР° РїСЂРѕРїСѓС‰РµРЅР°.
+2025-05-09 21:47:20,946 - INFO - Р—Р°РіСЂСѓР¶Р°СЋ РґР°РЅРЅС‹Рµ РёР· /app/output/indicators.json
+2025-05-09 21:47:38,348 - INFO - Р“РѕС‚РѕРІР»СЋ Рє СЃРєР°С‡РёРІР°РЅРёСЋ /app/output/indicators.json
+2025-05-09 21:49:23,054 - INFO - РЈСЃРїРµС€РЅРѕРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ Рє Р±Р°Р·Рµ РґР°РЅРЅС‹С….
+2025-05-09 21:49:23,056 - INFO - Р¤Р°Р№Р» РїРѕРєР°Р·Р°С‚РµР»РµР№ РЅР°Р№РґРµРЅ (/app/output/indicators.json), РЅР°С‡Р°Р»СЊРЅР°СЏ Р·Р°РіСЂСѓР·РєР° РїСЂРѕРїСѓС‰РµРЅР°.
+2025-05-09 21:49:52,415 - INFO - Р—Р°РіСЂСѓР¶Р°СЋ РґР°РЅРЅС‹Рµ РёР· /app/output/indicators.json
+2025-05-10 10:45:59,676 - ERROR - Ошибка подключения к базе данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-10 10:45:59,677 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-10 10:48:47,414 - ERROR - Ошибка подключения к базе данных: (psycopg2.OperationalError) connection to server at "rc1d-swdyvo6rel2z0mr9.mdb.yandexcloud.net" (51.250.41.74), port 6432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-10 10:48:47,414 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) connection to server at "rc1d-swdyvo6rel2z0mr9.mdb.yandexcloud.net" (51.250.41.74), port 6432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-10 10:49:19,459 - INFO - Успешное подключение к базе данных.
+2025-05-10 10:49:19,459 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 10:56:02,071 - INFO - Успешное подключение к базе данных.
+2025-05-10 10:56:02,071 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 10:56:16,017 - INFO - Успешное подключение к базе данных.
+2025-05-10 10:56:16,018 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 10:56:16,018 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 10:56:16,019 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 10:56:17,960 - INFO - Записей до предобработки: 482238
+2025-05-10 10:56:18,290 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-10 10:56:21,779 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 482232
+2025-05-10 10:56:22,365 - INFO - Записей после заполнения пропусков: 482232
+2025-05-10 10:56:22,443 - INFO - Записей после удаления выбросов: 350490
+2025-05-10 10:56:32,286 - INFO - Данные загружены в staging через COPY
+2025-05-10 10:56:32,491 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 10:56:32,492 - INFO - Запуск calculate_indicators...
+2025-05-10 10:56:36,593 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 10:59:50,430 - INFO - Успешное подключение к базе данных.
+2025-05-10 10:59:50,430 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 10:59:54,847 - INFO - Успешное подключение к базе данных.
+2025-05-10 10:59:54,848 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 10:59:54,849 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 10:59:54,849 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 10:59:56,781 - INFO - Записей до предобработки: 482238
+2025-05-10 10:59:57,105 - INFO - Записей после удаления строк-заголовков: 482233
+2025-05-10 11:00:00,537 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 482232
+2025-05-10 11:00:01,111 - INFO - Записей после заполнения пропусков: 482232
+2025-05-10 11:00:01,186 - INFO - Записей после удаления выбросов: 350490
+2025-05-10 11:00:10,875 - INFO - Данные загружены в staging через COPY
+2025-05-10 11:00:10,980 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 11:00:10,980 - INFO - Запуск calculate_indicators...
+2025-05-10 11:00:15,531 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 11:02:34,549 - INFO - Успешное подключение к базе данных.
+2025-05-10 11:02:34,550 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 11:02:34,551 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 11:02:34,551 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 11:02:36,470 - INFO - Записей до предобработки: 482238
+2025-05-10 11:02:36,523 - INFO - Записей после фильтрации GOAL="Туризм": 194678 (из 482238)
+2025-05-10 11:02:36,661 - INFO - Записей после удаления строк-заголовков: 194678
+2025-05-10 11:02:38,006 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 194678
+2025-05-10 11:02:38,241 - INFO - Записей после заполнения пропусков: 194678
+2025-05-10 11:02:38,275 - INFO - Записей после удаления выбросов: 128110
+2025-05-10 11:02:42,242 - INFO - Данные загружены в staging через COPY
+2025-05-10 11:02:42,341 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 11:02:42,341 - INFO - Запуск calculate_indicators...
+2025-05-10 11:02:46,091 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 11:03:43,030 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 13:26:32,500 - INFO - Успешное подключение к базе данных.
+2025-05-10 13:26:32,500 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 13:26:49,114 - INFO - Успешное подключение к базе данных.
+2025-05-10 13:26:49,115 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 13:26:49,115 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 13:26:49,116 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 13:26:51,033 - INFO - Записей до предобработки: 482238
+2025-05-10 13:26:51,088 - INFO - Записей после фильтрации GOAL="Туризм": 194678 (из 482238)
+2025-05-10 13:26:51,221 - INFO - Записей после удаления строк-заголовков: 194678
+2025-05-10 13:26:52,631 - INFO - Записей после фильтрации по AGE/GENDER: 190698 (из 194678)
+2025-05-10 13:26:52,661 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 190698
+2025-05-10 13:26:52,889 - INFO - Записей после заполнения пропусков: 190698
+2025-05-10 13:26:52,920 - INFO - Записей после удаления выбросов: 126188
+2025-05-10 13:26:56,996 - INFO - Данные загружены в staging через COPY
+2025-05-10 13:26:57,086 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 13:26:57,086 - INFO - Запуск calculate_indicators...
+2025-05-10 13:27:00,526 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 13:28:14,431 - INFO - Успешное подключение к базе данных.
+2025-05-10 13:28:14,431 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 13:28:37,572 - INFO - Успешное подключение к базе данных.
+2025-05-10 13:28:37,573 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 13:28:37,574 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 13:28:37,574 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 13:28:39,507 - INFO - Записей до предобработки: 482238
+2025-05-10 13:28:39,562 - INFO - Записей после фильтрации GOAL="Туризм": 194678 (из 482238)
+2025-05-10 13:28:39,697 - INFO - Записей после удаления строк-заголовков: 194678
+2025-05-10 13:28:41,123 - INFO - Записей после фильтрации по AGE/GENDER: 190698 (из 194678)
+2025-05-10 13:28:41,153 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 190698
+2025-05-10 13:28:41,386 - INFO - Записей после заполнения пропусков: 190698
+2025-05-10 13:28:41,419 - INFO - Записей после удаления выбросов: 126188
+2025-05-10 13:28:45,462 - INFO - Данные загружены в staging через COPY
+2025-05-10 13:28:45,550 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 13:28:45,551 - INFO - Запуск calculate_indicators...
+2025-05-10 13:28:48,749 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 13:37:38,596 - INFO - Успешное подключение к базе данных.
+2025-05-10 13:37:38,596 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 13:37:53,680 - INFO - Успешное подключение к базе данных.
+2025-05-10 13:37:53,681 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 13:37:53,682 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 13:37:53,682 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 13:37:55,578 - INFO - Записей до предобработки: 482238
+2025-05-10 13:37:55,629 - INFO - Записей после фильтрации GOAL="Туризм": 194678 (из 482238)
+2025-05-10 13:37:55,771 - INFO - Записей после удаления строк-заголовков: 194678
+2025-05-10 13:37:57,217 - INFO - Записей после фильтрации по AGE/GENDER: 190698 (из 194678)
+2025-05-10 13:37:57,251 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 190698
+2025-05-10 13:37:57,481 - INFO - Записей после заполнения пропусков: 190698
+2025-05-10 13:37:57,512 - INFO - Записей после удаления выбросов: 126188
+2025-05-10 13:38:01,204 - INFO - Данные загружены в staging через COPY
+2025-05-10 13:38:01,292 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 13:38:01,293 - INFO - Запуск calculate_indicators...
+2025-05-10 13:38:04,367 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 13:42:59,531 - INFO - Успешное подключение к базе данных.
+2025-05-10 13:42:59,531 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 13:43:17,926 - INFO - Успешное подключение к базе данных.
+2025-05-10 13:43:17,926 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 13:43:17,927 - INFO - Используется CSV: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 13:43:17,927 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 13:43:19,880 - INFO - Записей до предобработки: 482238
+2025-05-10 13:43:19,934 - INFO - Записей после фильтрации GOAL="Туризм": 194678 (из 482238)
+2025-05-10 13:43:20,069 - INFO - Записей после удаления строк-заголовков: 194678
+2025-05-10 13:43:21,499 - INFO - Записей после фильтрации по AGE/GENDER: 190698 (из 194678)
+2025-05-10 13:43:21,532 - INFO - Записей после приведения DATE_OF_ARRIVAL к datetime: 190698
+2025-05-10 13:43:21,765 - INFO - Записей после заполнения пропусков: 190698
+2025-05-10 13:43:21,797 - INFO - Записей после удаления выбросов: 126188
+2025-05-10 13:43:25,915 - INFO - Данные загружены в staging через COPY
+2025-05-10 13:43:26,007 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 13:43:26,008 - INFO - Запуск calculate_indicators...
+2025-05-10 13:43:29,395 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 14:19:45,146 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:19:45,147 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:20:01,061 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:20:01,062 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:20:01,062 - INFO - Используется CSV: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:20:01,063 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:20:03,039 - INFO - Записей до предобработки: 482238
+2025-05-10 14:20:03,112 - INFO - После GOAL="Туризм": 194678 (из 482238)
+2025-05-10 14:20:03,232 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 14:20:04,747 - INFO - После фильтрации россиян с пустыми AGE/GENDER: 193749
+2025-05-10 14:20:15,048 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:20:15,049 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:20:15,050 - INFO - Используется CSV: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:20:15,051 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:20:17,009 - INFO - Записей до предобработки: 482238
+2025-05-10 14:20:17,082 - INFO - После GOAL="Туризм": 194678 (из 482238)
+2025-05-10 14:20:17,212 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 14:20:18,730 - INFO - После фильтрации россиян с пустыми AGE/GENDER: 193749
+2025-05-10 14:20:28,934 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:20:28,937 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:20:28,938 - INFO - Используется CSV: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:20:28,939 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:20:31,615 - INFO - Записей до предобработки: 482238
+2025-05-10 14:20:31,696 - INFO - После GOAL="Туризм": 194678 (из 482238)
+2025-05-10 14:20:31,860 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 14:20:33,561 - INFO - После фильтрации россиян с пустыми AGE/GENDER: 193749
+2025-05-10 14:20:43,797 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:20:43,798 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:20:43,798 - INFO - Используется CSV: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:20:43,799 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:20:45,670 - INFO - Записей до предобработки: 482238
+2025-05-10 14:20:45,748 - INFO - После GOAL="Туризм": 194678 (из 482238)
+2025-05-10 14:20:45,898 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 14:20:48,428 - INFO - После фильтрации россиян с пустыми AGE/GENDER: 193749
+2025-05-10 14:20:49,594 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:20:49,594 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:21:00,497 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:21:00,498 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:21:00,499 - INFO - Используется CSV: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:21:00,499 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:21:02,395 - INFO - Записей до предобработки: 482238
+2025-05-10 14:21:02,470 - INFO - После GOAL="Туризм": 194678 (из 482238)
+2025-05-10 14:21:02,589 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 14:21:04,060 - INFO - После фильтрации россиян с пустыми AGE/GENDER: 193749
+2025-05-10 14:21:05,051 - INFO - После приведения DATE_OF_ARRIVAL: 193749
+2025-05-10 14:21:05,290 - INFO - После заполнения пропусков по фичам поездки: 193749
+2025-05-10 14:21:05,325 - INFO - После удаления выбросов: 130118
+2025-05-10 14:21:34,923 - INFO - Данные загружены в staging через COPY
+2025-05-10 14:21:35,009 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 14:21:35,010 - INFO - Запуск calculate_indicators...
+2025-05-10 14:21:37,376 - ERROR - Ошибка при расчёте индикаторов: '<' not supported between instances of 'int' and 'str'
+2025-05-10 14:24:47,657 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:24:47,657 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:24:58,482 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:24:58,483 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:24:58,483 - INFO - Используется CSV: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:24:58,484 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:25:00,350 - INFO - Записей до предобработки: 482238
+2025-05-10 14:25:00,421 - INFO - После GOAL="Туризм": 194678 (из 482238)
+2025-05-10 14:25:00,544 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 14:25:01,999 - INFO - После фильтрации россиян с пустыми AGE/GENDER: 193749
+2025-05-10 14:25:02,989 - INFO - После приведения DATE_OF_ARRIVAL: 193749
+2025-05-10 14:25:03,227 - INFO - После заполнения пропусков по фичам поездки: 193749
+2025-05-10 14:25:03,262 - INFO - После удаления выбросов: 130118
+2025-05-10 14:25:33,208 - INFO - Данные загружены в staging через COPY
+2025-05-10 14:25:33,365 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 14:25:33,365 - INFO - Запуск calculate_indicators...
+2025-05-10 14:25:35,754 - ERROR - Ошибка при расчёте индикаторов: '<' not supported between instances of 'int' and 'str'
+2025-05-10 14:33:17,968 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:33:17,968 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:33:31,713 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:33:31,714 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:33:31,714 - INFO - Используется CSV: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:33:31,715 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:33:33,568 - INFO - Записей до предобработки: 482238
+2025-05-10 14:33:33,635 - INFO - После GOAL="Туризм": 194678 (из 482238)
+2025-05-10 14:33:33,754 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 14:33:35,216 - INFO - После фильтрации россиян с пустыми AGE/GENDER: 193749
+2025-05-10 14:33:36,181 - INFO - После приведения DATE_OF_ARRIVAL: 193749
+2025-05-10 14:33:36,419 - INFO - После заполнения фич поездки: 193749
+2025-05-10 14:33:36,451 - INFO - После удаления выбросов: 130118
+2025-05-10 14:34:07,596 - INFO - Данные загружены в staging через COPY
+2025-05-10 14:34:07,699 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 14:34:07,700 - INFO - Запуск calculate_indicators...
+2025-05-10 14:34:10,768 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 14:57:04,924 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:57:04,924 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:57:17,886 - INFO - Успешное подключение к базе данных.
+2025-05-10 14:57:17,887 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 14:57:17,887 - INFO - Используется CSV: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:57:17,888 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\temp\final.csv
+2025-05-10 14:57:19,739 - INFO - Записей до предобработки: 482238
+2025-05-10 14:57:19,809 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-10 14:57:19,926 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 14:57:21,395 - INFO - После фильтрации россиян: 193749
+2025-05-10 14:57:22,368 - INFO - После обработки даты: 193749
+2025-05-10 14:57:22,605 - INFO - После обработки фич поездки: 193749
+2025-05-10 14:57:22,637 - INFO - После удаления выбросов: 130118
+2025-05-10 14:57:35,444 - INFO - Данные загружены в staging через COPY
+2025-05-10 14:57:35,544 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 14:57:35,545 - INFO - Запуск calculate_indicators...
+2025-05-10 14:57:38,690 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 18:15:10,709 - INFO - Успешное подключение к базе данных.
+2025-05-10 18:15:10,709 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 18:15:29,218 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 18:15:29,219 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 18:15:29,219 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 18:15:31,646 - INFO - Записей до предобработки: 482238
+2025-05-10 18:15:31,715 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-10 18:15:31,843 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 18:15:33,522 - INFO - После фильтрации россиян: 193749
+2025-05-10 18:15:34,574 - INFO - После обработки даты: 193749
+2025-05-10 18:15:34,828 - INFO - После обработки фич поездки: 193749
+2025-05-10 18:15:34,864 - INFO - После удаления выбросов: 130118
+2025-05-10 18:15:47,157 - INFO - Данные загружены в staging через COPY
+2025-05-10 18:15:47,246 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 18:15:47,247 - INFO - Запуск calculate_indicators...
+2025-05-10 18:15:48,272 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 18:16:01,113 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 18:17:14,613 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 18:17:14,614 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 18:17:14,614 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 18:17:16,655 - INFO - Записей до предобработки: 482238
+2025-05-10 18:17:16,729 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-10 18:17:16,853 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 18:17:18,461 - INFO - После фильтрации россиян: 193749
+2025-05-10 18:17:19,463 - INFO - После обработки даты: 193749
+2025-05-10 18:17:19,716 - INFO - После обработки фич поездки: 193749
+2025-05-10 18:17:19,750 - INFO - После удаления выбросов: 130118
+2025-05-10 18:17:32,610 - INFO - Данные загружены в staging через COPY
+2025-05-10 18:17:32,727 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 18:17:32,727 - INFO - Запуск calculate_indicators...
+2025-05-10 18:17:33,713 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 20:58:47,699 - INFO - Успешное подключение к базе данных.
+2025-05-10 20:58:47,700 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 21:16:01,062 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 21:16:01,062 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 21:16:01,062 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 21:16:03,390 - INFO - Записей до предобработки: 482238
+2025-05-10 21:16:03,495 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-10 21:16:03,643 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 21:16:05,550 - INFO - После фильтрации россиян: 193749
+2025-05-10 21:16:06,709 - INFO - После обработки даты: 193749
+2025-05-10 21:16:06,992 - INFO - После обработки фич поездки: 193749
+2025-05-10 21:16:07,027 - INFO - После удаления выбросов: 130118
+2025-05-10 21:16:20,977 - INFO - Данные загружены в staging через COPY
+2025-05-10 21:16:21,068 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 21:16:21,069 - INFO - Запуск calculate_indicators...
+2025-05-10 21:16:21,450 - ERROR - Ошибка при расчёте индикаторов: 'HOME_Country'
+2025-05-10 21:17:42,702 - INFO - Успешное подключение к базе данных.
+2025-05-10 21:17:42,703 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 21:17:45,449 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 21:17:45,449 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 21:17:45,450 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 21:17:47,812 - INFO - Записей до предобработки: 482238
+2025-05-10 21:17:48,112 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-10 21:17:48,460 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 21:17:50,169 - INFO - После фильтрации россиян: 193749
+2025-05-10 21:17:51,207 - INFO - После обработки даты: 193749
+2025-05-10 21:17:51,484 - INFO - После обработки фич поездки: 193749
+2025-05-10 21:17:51,520 - INFO - После удаления выбросов: 130118
+2025-05-10 21:18:04,094 - INFO - Данные загружены в staging через COPY
+2025-05-10 21:18:04,210 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 21:18:04,211 - INFO - Запуск calculate_indicators...
+2025-05-10 21:18:05,816 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 21:51:55,156 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 21:54:48,131 - INFO - Успешное подключение к базе данных.
+2025-05-10 21:54:48,132 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 21:57:45,439 - INFO - Успешное подключение к базе данных.
+2025-05-10 21:57:45,440 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 21:58:00,174 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 22:13:19,682 - INFO - Успешное подключение к базе данных.
+2025-05-10 22:13:19,683 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 22:13:29,408 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 22:13:29,409 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 22:13:29,409 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 22:13:31,307 - INFO - Записей до предобработки: 482238
+2025-05-10 22:13:31,380 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-10 22:13:31,504 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 22:13:32,946 - INFO - После фильтрации россиян: 193749
+2025-05-10 22:13:33,892 - INFO - После обработки даты: 193749
+2025-05-10 22:13:34,126 - INFO - После обработки фич поездки: 193749
+2025-05-10 22:13:34,159 - INFO - После удаления выбросов: 130118
+2025-05-10 22:13:46,112 - INFO - Данные загружены в staging через COPY
+2025-05-10 22:13:46,224 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 22:13:46,225 - INFO - Запуск calculate_indicators...
+2025-05-10 22:13:47,682 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 22:14:34,414 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 22:20:06,547 - INFO - Успешное подключение к базе данных.
+2025-05-10 22:20:06,547 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-10 22:20:20,172 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 22:20:20,172 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 22:20:20,172 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-10 22:20:22,060 - INFO - Записей до предобработки: 482238
+2025-05-10 22:20:22,130 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-10 22:20:22,247 - INFO - После удаления строк-заголовков: 194678
+2025-05-10 22:20:23,712 - INFO - После фильтрации россиян: 193749
+2025-05-10 22:20:24,671 - INFO - После обработки даты: 193749
+2025-05-10 22:20:24,903 - INFO - После обработки фич поездки: 193749
+2025-05-10 22:20:24,937 - INFO - После удаления выбросов: 130118
+2025-05-10 22:20:37,521 - INFO - Данные загружены в staging через COPY
+2025-05-10 22:20:37,658 - INFO - Стейджинг успешно переименован в основную таблицу
+2025-05-10 22:20:37,658 - INFO - Запуск calculate_indicators...
+2025-05-10 22:20:39,106 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 22:23:50,467 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-10 19:27:07,280 - ERROR - РћС€РёР±РєР° РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р±Р°Р·Рµ РґР°РЅРЅС‹С…: (psycopg2.OperationalError) could not translate host name "rc1d-swdyvo6rel2z0mr9.mdb.yandexcloud.net" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-10 19:27:07,281 - ERROR - РћС€РёР±РєР° РїСЂРё РЅР°С‡Р°Р»СЊРЅРѕР№ Р·Р°РіСЂСѓР·РєРµ РґР°РЅРЅС‹С…: (psycopg2.OperationalError) could not translate host name "rc1d-swdyvo6rel2z0mr9.mdb.yandexcloud.net" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-10 19:28:13,054 - ERROR - РћС€РёР±РєР° РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р±Р°Р·Рµ РґР°РЅРЅС‹С…: (psycopg2.OperationalError) could not translate host name "rc1d-swdyvo6rel2z0mr9.mdb.yandexcloud.net" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-10 19:28:13,055 - ERROR - РћС€РёР±РєР° РїСЂРё РЅР°С‡Р°Р»СЊРЅРѕР№ Р·Р°РіСЂСѓР·РєРµ РґР°РЅРЅС‹С…: (psycopg2.OperationalError) could not translate host name "rc1d-swdyvo6rel2z0mr9.mdb.yandexcloud.net" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-10 19:32:15,191 - ERROR - РћС€РёР±РєР° РїРѕРґРєР»СЋС‡РµРЅРёСЏ Рє Р±Р°Р·Рµ РґР°РЅРЅС‹С…: (psycopg2.OperationalError) could not translate host name "rc1d-swdyvo6rel2z0mr9.mdb.yandexcloud.net" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-10 19:32:15,192 - ERROR - РћС€РёР±РєР° РїСЂРё РЅР°С‡Р°Р»СЊРЅРѕР№ Р·Р°РіСЂСѓР·РєРµ РґР°РЅРЅС‹С…: (psycopg2.OperationalError) could not translate host name "rc1d-swdyvo6rel2z0mr9.mdb.yandexcloud.net" to address: Name or service not known
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-11 11:11:41,636 - ERROR - Ошибка подключения к базе данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-11 11:11:41,637 - ERROR - Ошибка при начальной загрузке данных: (psycopg2.OperationalError) 
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-11 11:12:08,607 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-11 11:14:01,609 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 12:21:44,713 - INFO - Успешное подключение к базе данных.
+2025-05-12 12:21:44,714 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 12:22:54,227 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:22:54,228 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:22:54,228 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:22:56,380 - INFO - Записей до предобработки: 482238
+2025-05-12 12:22:56,462 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-12 12:22:56,648 - INFO - После удаления строк-заголовков: 194678
+2025-05-12 12:22:58,095 - INFO - После фильтрации россиян: 193749
+2025-05-12 12:22:59,009 - INFO - После обработки даты: 193749
+2025-05-12 12:22:59,242 - INFO - После обработки фич поездки: 193749
+2025-05-12 12:22:59,279 - INFO - После удаления выбросов: 130118
+2025-05-12 12:23:07,086 - ERROR - Ошибка загрузки CSV (F:\projects\Diploma_practice\app\routes\temp\final.csv): 'home_region'
+2025-05-12 12:25:01,884 - INFO - Успешное подключение к базе данных.
+2025-05-12 12:25:01,885 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 12:25:17,119 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:25:17,119 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:25:17,119 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:25:19,129 - INFO - Записей до предобработки: 482238
+2025-05-12 12:25:19,201 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-12 12:25:19,324 - INFO - После удаления строк-заголовков: 194678
+2025-05-12 12:25:20,797 - INFO - После фильтрации россиян: 193749
+2025-05-12 12:25:21,819 - INFO - После обработки даты: 193749
+2025-05-12 12:25:22,068 - INFO - После обработки фич поездки: 193749
+2025-05-12 12:25:22,102 - INFO - После удаления выбросов: 130118
+2025-05-12 12:25:30,831 - ERROR - Ошибка загрузки CSV (F:\projects\Diploma_practice\app\routes\temp\final.csv): 'home_region'
+2025-05-12 12:26:29,109 - INFO - Успешное подключение к базе данных.
+2025-05-12 12:26:29,109 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 12:26:34,469 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:26:34,469 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:26:34,470 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:26:36,776 - INFO - Записей до предобработки: 482238
+2025-05-12 12:26:36,850 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-12 12:26:36,973 - INFO - После удаления строк-заголовков: 194678
+2025-05-12 12:26:38,408 - INFO - После фильтрации россиян: 193749
+2025-05-12 12:26:39,342 - INFO - После обработки даты: 193749
+2025-05-12 12:26:39,582 - INFO - После обработки фич поездки: 193749
+2025-05-12 12:26:39,614 - INFO - После удаления выбросов: 130118
+2025-05-12 12:26:49,127 - INFO - Нормализованные данные загружены в staging через COPY.
+2025-05-12 12:26:49,471 - INFO - Стейджинг успешно переименован в основные таблицы.
+2025-05-12 12:26:49,471 - INFO - Запуск calculate_indicators...
+2025-05-12 12:26:50,869 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 12:41:01,245 - INFO - Успешное подключение к базе данных.
+2025-05-12 12:41:01,246 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 12:41:04,637 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:41:04,638 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:41:04,638 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:41:06,558 - INFO - Записей до предобработки: 482238
+2025-05-12 12:41:06,632 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-12 12:41:06,751 - INFO - После удаления строк-заголовков: 194678
+2025-05-12 12:41:08,218 - INFO - После фильтрации россиян: 193749
+2025-05-12 12:41:09,147 - INFO - После обработки даты: 193749
+2025-05-12 12:41:09,384 - INFO - После обработки фич поездки: 193749
+2025-05-12 12:41:09,416 - INFO - После удаления выбросов: 130118
+2025-05-12 12:41:20,756 - ERROR - Ошибка при bulk-load нормализованных данных: invalid input syntax for type integer: "1.0"
+CONTEXT:  COPY tourism_data_staging, line 1, column home_region_id: "1.0"
+
+2025-05-12 12:41:20,757 - ERROR - Ошибка загрузки CSV (F:\projects\Diploma_practice\app\routes\temp\final.csv): invalid input syntax for type integer: "1.0"
+CONTEXT:  COPY tourism_data_staging, line 1, column home_region_id: "1.0"
+
+2025-05-12 12:43:04,251 - INFO - Успешное подключение к базе данных.
+2025-05-12 12:43:04,252 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 12:43:08,386 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:43:08,387 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:43:08,387 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 12:43:10,273 - INFO - Записей до предобработки: 482238
+2025-05-12 12:43:10,345 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-12 12:43:10,467 - INFO - После удаления строк-заголовков: 194678
+2025-05-12 12:43:12,442 - INFO - После фильтрации россиян: 193749
+2025-05-12 12:43:13,369 - INFO - После обработки даты: 193749
+2025-05-12 12:43:13,600 - INFO - После обработки поездок: 193749
+2025-05-12 12:43:13,632 - INFO - После удаления выбросов: 130118
+2025-05-12 12:43:25,127 - INFO - Нормализованные данные загружены в staging через COPY.
+2025-05-12 12:43:25,465 - INFO - Стейджинг успешно переименован в основные таблицы.
+2025-05-12 12:43:25,466 - INFO - Запуск calculate_indicators...
+2025-05-12 12:43:26,843 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 14:17:59,117 - INFO - Успешное подключение к базе данных.
+2025-05-12 14:17:59,118 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 14:18:04,445 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:18:04,446 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:18:04,446 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:18:07,064 - INFO - Записей до предобработки: 482238
+2025-05-12 14:18:07,133 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-12 14:18:07,253 - INFO - После удаления строк-заголовков: 194678
+2025-05-12 14:18:08,701 - INFO - После фильтрации россиян: 193749
+2025-05-12 14:18:09,642 - INFO - После обработки даты: 193749
+2025-05-12 14:18:09,875 - INFO - После заполнения медианой: 193749
+2025-05-12 14:18:09,907 - INFO - После удаления выбросов: 130118
+2025-05-12 14:18:18,048 - ERROR - Ошибка загрузки CSV (F:\projects\Diploma_practice\app\routes\temp\final.csv): "['month_start'] not in index"
+2025-05-12 14:19:39,094 - INFO - Успешное подключение к базе данных.
+2025-05-12 14:19:39,095 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 14:19:44,779 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:19:44,780 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:19:44,780 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:19:47,258 - INFO - Записей до предобработки: 482238
+2025-05-12 14:19:47,616 - INFO - После удаления строк-заголовков: 482233
+2025-05-12 14:19:51,637 - INFO - После фильтрации россиян: 481172
+2025-05-12 14:19:53,986 - INFO - После обработки даты: 481171
+2025-05-12 14:19:54,561 - INFO - После заполнения медианой: 481171
+2025-05-12 14:19:54,647 - INFO - После удаления выбросов: 350055
+2025-05-12 14:20:26,520 - INFO - Нормализованные данные загружены в staging через COPY.
+2025-05-12 14:20:26,840 - INFO - Стейджинг успешно переименован в основные таблицы.
+2025-05-12 14:20:26,841 - INFO - Запуск calculate_indicators...
+2025-05-12 14:20:28,570 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 14:23:48,097 - INFO - Успешное подключение к базе данных.
+2025-05-12 14:23:48,098 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 14:25:46,105 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:25:46,105 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:25:46,105 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:25:48,178 - INFO - Записей до предобработки: 482238
+2025-05-12 14:25:48,281 - INFO - После GOAL="Туризм": 194678 из 482238
+2025-05-12 14:25:48,492 - INFO - После удаления строк-заголовков: 194678
+2025-05-12 14:25:49,995 - INFO - После фильтрации россиян: 193749
+2025-05-12 14:25:50,911 - INFO - После обработки даты: 193749
+2025-05-12 14:25:51,143 - INFO - После заполнения медианой: 193749
+2025-05-12 14:25:51,179 - INFO - После удаления выбросов: 130118
+2025-05-12 14:26:01,735 - INFO - Нормализованные данные загружены в staging через COPY.
+2025-05-12 14:26:02,093 - INFO - Стейджинг успешно переименован в основные таблицы.
+2025-05-12 14:26:02,094 - INFO - Запуск calculate_indicators...
+2025-05-12 14:26:03,388 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 14:33:04,580 - INFO - Успешное подключение к базе данных.
+2025-05-12 14:33:04,581 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 14:33:11,902 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:33:11,902 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:33:11,903 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:33:13,800 - INFO - Записей до обработки: 482238
+2025-05-12 14:33:13,862 - INFO - После фильтрации по GOAL="Туризм": 194678 из 482238
+2025-05-12 14:33:15,256 - INFO - После удаления артефактов: 194678
+2025-05-12 14:33:15,408 - INFO - После отбора россиян с AGE/GENDER: 193749
+2025-05-12 14:33:16,351 - INFO - После обработки дат: 193749
+2025-05-12 14:33:16,589 - INFO - После заполнения пропусков: 193749
+2025-05-12 14:33:37,952 - INFO - Нормализованные данные загружены в staging через COPY.
+2025-05-12 14:33:38,292 - INFO - Стейджинг успешно переименован в основные таблицы.
+2025-05-12 14:33:38,293 - INFO - Запуск calculate_indicators...
+2025-05-12 14:33:39,788 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 14:36:04,543 - INFO - Успешное подключение к базе данных.
+2025-05-12 14:36:04,544 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 14:36:08,919 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:36:08,919 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:36:08,920 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:36:10,823 - INFO - Записей до обработки: 482238
+2025-05-12 14:36:10,894 - INFO - После фильтрации по GOAL="Туризм": 194678 из 482238
+2025-05-12 14:36:12,328 - INFO - После удаления артефактов: 194678
+2025-05-12 14:36:12,477 - INFO - После отбора россиян с AGE/GENDER: 193749
+2025-05-12 14:36:13,429 - INFO - После обработки дат: 193749
+2025-05-12 14:36:13,674 - INFO - После заполнения пропусков: 193749
+2025-05-12 14:36:13,707 - INFO - После удаления выбросов: 130118
+2025-05-12 14:36:24,361 - INFO - Нормализованные данные загружены в staging через COPY.
+2025-05-12 14:36:24,674 - INFO - Стейджинг успешно переименован в основные таблицы.
+2025-05-12 14:36:24,674 - INFO - Запуск calculate_indicators...
+2025-05-12 14:36:25,952 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 14:38:47,734 - INFO - Успешное подключение к базе данных.
+2025-05-12 14:38:47,735 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 14:38:56,542 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 14:43:11,161 - INFO - Успешное подключение к базе данных.
+2025-05-12 14:43:11,162 - INFO - Файл показателей найден (F:\projects\Diploma_practice\output\indicators.json), начальная загрузка пропущена.
+2025-05-12 14:43:21,562 - INFO - Временный файл: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:43:21,562 - INFO - Используется CSV: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:43:21,562 - INFO - Загрузка данных из файла: F:\projects\Diploma_practice\app\routes\temp\final.csv
+2025-05-12 14:43:23,673 - INFO - Записей до обработки: 482238
+2025-05-12 14:43:23,745 - INFO - После фильтрации по GOAL="Туризм": 194678 из 482238
+2025-05-12 14:43:25,264 - INFO - После удаления артефактов: 194678
+2025-05-12 14:43:25,429 - INFO - После отбора россиян с AGE/GENDER: 193749
+2025-05-12 14:43:26,397 - INFO - После обработки дат: 193749
+2025-05-12 14:43:26,628 - INFO - После заполнения пропусков: 193749
+2025-05-12 14:43:26,661 - INFO - После удаления выбросов: 130118
+2025-05-12 14:43:37,225 - INFO - Нормализованные данные загружены в staging через COPY.
+2025-05-12 14:43:37,576 - INFO - Стейджинг успешно переименован в основные таблицы.
+2025-05-12 14:43:37,576 - INFO - Запуск calculate_indicators...
+2025-05-12 14:43:38,878 - INFO - Индикаторы сохранены: F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 14:43:46,000 - INFO - Загружаю данные из F:\projects\Diploma_practice\output\indicators.json
+2025-05-12 11:45:11,751 - INFO - РЈСЃРїРµС€РЅРѕРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ Рє Р±Р°Р·Рµ РґР°РЅРЅС‹С….
+2025-05-12 11:45:11,753 - INFO - Р¤Р°Р№Р» РїРѕРєР°Р·Р°С‚РµР»РµР№ РЅР°Р№РґРµРЅ (/app/output/indicators.json), РЅР°С‡Р°Р»СЊРЅР°СЏ Р·Р°РіСЂСѓР·РєР° РїСЂРѕРїСѓС‰РµРЅР°.
